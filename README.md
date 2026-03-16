@@ -45,7 +45,7 @@ Each node binds to a distinct loopback IP (Linux routes the entire 127.0.0.0/8 b
 
 ## Configuration
 
-By default the scripts look for the NiFi source checkout at `/home/mcducks/IdeaProjects/nifi`. Override with:
+By default the scripts look for the NiFi source checkout at `$HOME/IdeaProjects/nifi`. Override with:
 
 ```bash
 export NIFI_REPO_ROOT=/path/to/nifi

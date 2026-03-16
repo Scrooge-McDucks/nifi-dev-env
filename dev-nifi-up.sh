@@ -44,7 +44,7 @@ set -euo pipefail
 # ============================================================================
 
 # Point REPO_ROOT at the NiFi source checkout
-REPO_ROOT="${NIFI_REPO_ROOT:-/home/mcducks/IdeaProjects/nifi}"
+REPO_ROOT="${NIFI_REPO_ROOT:-$HOME/IdeaProjects/nifi}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CLUSTER_DIR="$SCRIPT_DIR/nodes"
